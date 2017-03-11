@@ -156,7 +156,7 @@ class OmegaServiceProvider extends ServiceProvider
         $components = ['title', 'text', 'button'];
 
         foreach ($components as $component) {
-            $class = 'AI\\Omega\\Alert\\Components\\'.ucfirst(camel_case($component)).'Component';
+            $class = 'artworx\\omegacp\\Alert\\Components\\'.ucfirst(camel_case($component)).'Component';
 
             $this->app->bind("omega.alert.components.{$component}", $class);
         }
@@ -167,7 +167,7 @@ class OmegaServiceProvider extends ServiceProvider
      */
     protected function registerWidgets()
     {
-        $default_widgets = ['AI\\Omega\\Widgets\\UserDimmer', 'AI\\Omega\\Widgets\\PostDimmer', 'AI\\Omega\\Widgets\\PageDimmer'];
+        $default_widgets = ['artworx\\omegacp\\Widgets\\UserDimmer', 'artworx\\omegacp\\Widgets\\PostDimmer', 'artworx\\omegacp\\Widgets\\PageDimmer'];
         $widgets = config('omega.dashboard.widgets', $default_widgets);
 
         foreach ($widgets as $widget) {
@@ -183,7 +183,7 @@ class OmegaServiceProvider extends ServiceProvider
         $basePath = dirname(__DIR__);
         $publishable = [
             'omega_assets' => [
-                "$basePath/publishable/assets" => public_path('vendor/ai/omega/assets'),
+                "$basePath/publishable/assets" => public_path('vendor/artworx/omegacp/assets'),
             ],
             'migrations' => [
                 "$basePath/publishable/database/migrations/" => database_path('migrations'),
@@ -233,7 +233,7 @@ class OmegaServiceProvider extends ServiceProvider
         foreach ($formFields as $formField) {
             $class = studly_case("{$formField}_handler");
 
-            OmegaFacade::addFormField("AI\\Omega\\FormFields\\{$class}");
+            OmegaFacade::addFormField("artworx\\omegacp\\FormFields\\{$class}");
         }
 
         OmegaFacade::addAfterFormField(DescriptionHandler::class);

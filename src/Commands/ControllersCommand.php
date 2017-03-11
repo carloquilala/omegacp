@@ -56,8 +56,8 @@ class ControllersCommand extends Command
     public function fire()
     {
         $stub = $this->getStub();
-        $files = $this->filesystem->files(base_path('vendor/ai/omega/src/Http/Controllers'));
-        $namespace = config('omega.controllers.namespace', 'AI\\Omega\\Http\\Controllers');
+        $files = $this->filesystem->files(base_path('vendor/artworx/omegacp/src/Http/Controllers'));
+        $namespace = config('omega.controllers.namespace', 'artworx\\omegacp\\Http\\Controllers');
 
         $appNamespace = app()->getNamespace();
 
@@ -98,7 +98,7 @@ class ControllersCommand extends Command
      */
     public function getStub()
     {
-        return $this->filesystem->get(base_path('/vendor/ai/omega/stubs/'.$this->stub));
+        return $this->filesystem->get(base_path('/vendor/artworx/omegacp/stubs/'.$this->stub));
     }
 
     /**
@@ -111,7 +111,7 @@ class ControllersCommand extends Command
      */
     protected function generateContent($stub, $class)
     {
-        $namespace = config('omega.controllers.namespace', 'AI\\Omega\\Http\\Controllers');
+        $namespace = config('omega.controllers.namespace', 'artworx\\omegacp\\Http\\Controllers');
 
         $content = str_replace(
             'DummyNamespace',
@@ -121,7 +121,7 @@ class ControllersCommand extends Command
 
         $content = str_replace(
             'FullBaseDummyClass',
-            'AI\\Omega\\Http\\Controllers\\'.$class,
+            'artworx\\omegacp\\Http\\Controllers\\'.$class,
             $content
         );
 

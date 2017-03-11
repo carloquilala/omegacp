@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'assets_path' => '/vendor/ai/omega/assets',
+    'assets_path' => '/vendor/artworx/omegacp/assets',
 
     /*
     |--------------------------------------------------------------------------

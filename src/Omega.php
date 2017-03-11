@@ -228,7 +228,7 @@ class Omega
 
             // Loop through all the packages and get the version of omega
             foreach ($file->packages as $package) {
-                if ($package->name == 'ai/omega') {
+                if ($package->name == 'artworx/omegacp') {
                     $this->version = $package->version;
                     break;
                 }
