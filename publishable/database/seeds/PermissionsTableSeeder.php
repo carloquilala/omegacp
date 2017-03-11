@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Permission;
+use artworx\omegacp\Models\Permission;
 
 class PermissionsTableSeeder extends Seeder
 {

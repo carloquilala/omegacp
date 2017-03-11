@@ -1,10 +1,10 @@
 <?php
 
-namespace AI\Omega\Http\Middleware;
+namespace artworx\omegacp\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Facades\Omega;
 
 class OmegaAdminMiddleware
 {

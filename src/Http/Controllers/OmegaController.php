@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Http\Controllers;
+namespace artworx\omegacp\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Constraint;
 use Intervention\Image\Facades\Image;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Facades\Omega;
 
 class OmegaController extends Controller
 {

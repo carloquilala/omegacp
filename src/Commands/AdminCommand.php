@@ -1,11 +1,11 @@
 <?php
 
-namespace AI\Omega\Commands;
+namespace artworx\omegacp\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;
 use Symfony\Component\Console\Input\InputOption;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Facades\Omega;
 
 class AdminCommand extends Command
 {

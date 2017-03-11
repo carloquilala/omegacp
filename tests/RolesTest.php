@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Tests;
+namespace artworx\omegacp\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use AI\Omega\Models\Role;
+use artworx\omegacp\Models\Role;
 
 class RolesTest extends TestCase
 {

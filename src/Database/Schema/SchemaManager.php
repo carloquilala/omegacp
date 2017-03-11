@@ -1,11 +1,11 @@
 <?php
 
-namespace AI\Omega\Database\Schema;
+namespace artworx\omegacp\Database\Schema;
 
 use Doctrine\DBAL\Schema\SchemaException;
 use Doctrine\DBAL\Schema\Table as DoctrineTable;
 use Illuminate\Support\Facades\DB;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Types\Type;
 
 abstract class SchemaManager
 {
@@ -49,7 +49,7 @@ abstract class SchemaManager
     /**
      * @param string $tableName
      *
-     * @return \AI\Omega\Database\Schema\Table
+     * @return \artworx\omegacp\Database\Schema\Table
      */
     public static function listTableDetails($tableName)
     {

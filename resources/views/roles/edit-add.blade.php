@@ -62,7 +62,7 @@
                                 <?php
                                     $role_permissions = (isset($dataTypeContent)) ? $dataTypeContent->permissions->pluck('key')->toArray() : [];
                                 ?>
-                                @foreach(AI\Omega\Models\Permission::all()->groupBy('table_name') as $table => $permission)
+                                @foreach(artworx\omegacp\Models\Permission::all()->groupBy('table_name') as $table => $permission)
                                     <li>
                                         <input type="checkbox" id="{{$table}}" class="permission-group">
                                         <label for="{{$table}}"><strong>{{ucwords($table)}}</strong></label>

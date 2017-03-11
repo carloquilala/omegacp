@@ -1,10 +1,10 @@
 <?php
 
-namespace AI\Omega\Http\Controllers\Traits;
+namespace artworx\omegacp\Http\Controllers\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Pagination\LengthAwarePaginator;
-use AI\Omega\Models\DataType;
+use artworx\omegacp\Models\DataType;
 
 trait BreadRelationshipParser
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Role;
+use artworx\omegacp\Models\Role;
 
 class RolesTableSeeder extends Seeder
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace AI\Omega\Database\Schema;
+namespace artworx\omegacp\Database\Schema;
 
 use Doctrine\DBAL\Schema\Column as DoctrineColumn;
 use Doctrine\DBAL\Types\Type as DoctrineType;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Types\Type;
 
 abstract class Column
 {

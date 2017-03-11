@@ -1,23 +1,23 @@
 <?php
 
-namespace AI\Omega;
+namespace artworx\omegacp;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
-use AI\Omega\FormFields\After\HandlerInterface as AfterHandlerInterface;
-use AI\Omega\FormFields\HandlerInterface;
-use AI\Omega\Models\Category;
-use AI\Omega\Models\DataRow;
-use AI\Omega\Models\DataType;
-use AI\Omega\Models\Menu;
-use AI\Omega\Models\MenuItem;
-use AI\Omega\Models\Page;
-use AI\Omega\Models\Permission;
-use AI\Omega\Models\Post;
-use AI\Omega\Models\Role;
-use AI\Omega\Models\Setting;
-use AI\Omega\Models\User;
+use artworx\omegacp\FormFields\After\HandlerInterface as AfterHandlerInterface;
+use artworx\omegacp\FormFields\HandlerInterface;
+use artworx\omegacp\Models\Category;
+use artworx\omegacp\Models\DataRow;
+use artworx\omegacp\Models\DataType;
+use artworx\omegacp\Models\Menu;
+use artworx\omegacp\Models\MenuItem;
+use artworx\omegacp\Models\Page;
+use artworx\omegacp\Models\Permission;
+use artworx\omegacp\Models\Post;
+use artworx\omegacp\Models\Role;
+use artworx\omegacp\Models\Setting;
+use artworx\omegacp\Models\User;
 
 class Omega
 {

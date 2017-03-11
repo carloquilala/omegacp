@@ -1,8 +1,8 @@
 <?php
 
-namespace AI\Omega\Database\Types\Postgresql;
+namespace artworx\omegacp\Database\Types\Postgresql;
 
-use AI\Omega\Database\Types\Common\CharType;
+use artworx\omegacp\Database\Types\Common\CharType;
 
 class CharacterType extends CharType
 {

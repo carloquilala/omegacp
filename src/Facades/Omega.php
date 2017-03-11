@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Facades;
+namespace artworx\omegacp\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

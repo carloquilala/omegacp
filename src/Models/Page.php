@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Models;
+namespace artworx\omegacp\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;

@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Permission;
-use AI\Omega\Models\Role;
+use artworx\omegacp\Models\Permission;
+use artworx\omegacp\Models\Role;
 
 class PermissionRoleTableSeeder extends Seeder
 {

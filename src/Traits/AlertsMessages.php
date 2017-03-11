@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Traits;
+namespace artworx\omegacp\Traits;
 
 trait AlertsMessages
 {

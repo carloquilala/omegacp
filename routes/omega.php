@@ -1,6 +1,6 @@
 <?php
 
-use AI\Omega\Models\DataType;
+use artworx\omegacp\Models\DataType;
 
 /*
 |--------------------------------------------------------------------------

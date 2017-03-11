@@ -1,8 +1,8 @@
 <?php
 
-namespace AI\Omega\Alert\Components;
+namespace artworx\omegacp\Alert\Components;
 
-use AI\Omega\Alert;
+use artworx\omegacp\Alert;
 
 abstract class AbstractComponent implements ComponentInterface
 {

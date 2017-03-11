@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Http\Controllers;
+namespace artworx\omegacp\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
@@ -8,15 +8,15 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use AI\Omega\Database\DatabaseUpdater;
-use AI\Omega\Database\Schema\Column;
-use AI\Omega\Database\Schema\Identifier;
-use AI\Omega\Database\Schema\SchemaManager;
-use AI\Omega\Database\Schema\Table;
-use AI\Omega\Database\Types\Type;
-use AI\Omega\Facades\Omega;
-use AI\Omega\Models\DataType;
-use AI\Omega\Models\Permission;
+use artworx\omegacp\Database\DatabaseUpdater;
+use artworx\omegacp\Database\Schema\Column;
+use artworx\omegacp\Database\Schema\Identifier;
+use artworx\omegacp\Database\Schema\SchemaManager;
+use artworx\omegacp\Database\Schema\Table;
+use artworx\omegacp\Database\Types\Type;
+use artworx\omegacp\Facades\Omega;
+use artworx\omegacp\Models\DataType;
+use artworx\omegacp\Models\Permission;
 
 class OmegaDatabaseController extends Controller
 {
@@ -286,7 +286,7 @@ class OmegaDatabaseController extends Controller
     {
         Omega::canOrFail('browse_database');
 
-        /* @var \AI\Omega\Models\DataType $dataType */
+        /* @var \artworx\omegacp\Models\DataType $dataType */
         try {
             $dataType = Omega::model('DataType')->find($id);
 
@@ -304,7 +304,7 @@ class OmegaDatabaseController extends Controller
     {
         Omega::canOrFail('browse_database');
 
-        /* @var \AI\Omega\Models\DataType $dataType */
+        /* @var \artworx\omegacp\Models\DataType $dataType */
         $dataType = Omega::model('DataType')->find($id);
         $data = Omega::model('DataType')->destroy($id)
             ? $this->alertSuccess("Successfully removed BREAD from {$dataType->name}")

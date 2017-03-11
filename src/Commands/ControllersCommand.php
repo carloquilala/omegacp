@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Commands;
+namespace artworx\omegacp\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

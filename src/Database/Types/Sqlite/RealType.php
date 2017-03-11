@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Database\Types\Sqlite;
+namespace artworx\omegacp\Database\Types\Sqlite;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Types\Type;
 
 class RealType extends Type
 {

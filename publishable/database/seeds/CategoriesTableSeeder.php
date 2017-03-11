@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Category;
+use artworx\omegacp\Models\Category;
 
 class CategoriesTableSeeder extends Seeder
 {

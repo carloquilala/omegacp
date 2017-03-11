@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Database\Platforms;
+namespace artworx\omegacp\Database\Platforms;
 
 use Illuminate\Support\Collection;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Types\Type;
 
 abstract class Mysql extends Platform
 {

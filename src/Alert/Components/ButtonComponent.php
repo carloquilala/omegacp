@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Alert\Components;
+namespace artworx\omegacp\Alert\Components;
 
 class ButtonComponent extends AbstractComponent
 {

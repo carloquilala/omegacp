@@ -1,11 +1,11 @@
 <?php
 
-namespace AI\Omega\Database\Types;
+namespace artworx\omegacp\Database\Types;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform as DoctrineAbstractPlatform;
 use Doctrine\DBAL\Types\Type as DoctrineType;
-use AI\Omega\Database\Platforms\Platform;
-use AI\Omega\Database\Schema\SchemaManager;
+use artworx\omegacp\Database\Platforms\Platform;
+use artworx\omegacp\Database\Schema\SchemaManager;
 
 abstract class Type extends DoctrineType
 {

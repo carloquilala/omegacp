@@ -1,12 +1,12 @@
 <?php
 
-namespace AI\Omega\Models;
+namespace artworx\omegacp\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use AI\Omega\Database\Schema\SchemaManager;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Database\Schema\SchemaManager;
+use artworx\omegacp\Facades\Omega;
 
 class DataType extends Model
 {

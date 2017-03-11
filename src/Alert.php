@@ -1,8 +1,8 @@
 <?php
 
-namespace AI\Omega;
+namespace artworx\omegacp;
 
-use AI\Omega\Alert\Components\ComponentInterface;
+use artworx\omegacp\Alert\Components\ComponentInterface;
 
 class Alert
 {

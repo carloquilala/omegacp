@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Database\Types\Postgresql;
+namespace artworx\omegacp\Database\Types\Postgresql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Types\Type;
 
 class JsonbType extends Type
 {

@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Role;
-use AI\Omega\Models\User;
+use artworx\omegacp\Models\Role;
+use artworx\omegacp\Models\User;
 
 class UsersTableSeeder extends Seeder
 {

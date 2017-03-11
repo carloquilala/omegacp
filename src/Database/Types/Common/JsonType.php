@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Database\Types\Common;
+namespace artworx\omegacp\Database\Types\Common;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Types\Type;
 
 class JsonType extends Type
 {

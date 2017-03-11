@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Tests\Models;
+namespace artworx\omegacp\Tests\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

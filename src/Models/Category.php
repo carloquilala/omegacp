@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Models;
+namespace artworx\omegacp\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Facades\Omega;
 
 class Category extends Model
 {

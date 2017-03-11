@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Traits\Seedable;
+use artworx\omegacp\Traits\Seedable;
 
 class OmegaDatabaseSeeder extends Seeder
 {

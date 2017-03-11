@@ -27,7 +27,7 @@ return [
     */
 
     'controllers' => [
-        'namespace' => 'AI\\Omega\\Http\\Controllers',
+        'namespace' => 'artworx\\omegacp\\Http\\Controllers',
     ],
 
     /*
@@ -115,9 +115,9 @@ return [
             'responsive' => true, // Use responsive extension for jQuery dataTables that are not server-side paginated
         ],
         'widgets' => [
-            'AI\\Omega\\Widgets\\UserDimmer',
-            'AI\\Omega\\Widgets\\PostDimmer',
-            'AI\\Omega\\Widgets\\PageDimmer',
+            'artworx\\omegacp\\Widgets\\UserDimmer',
+            'artworx\\omegacp\\Widgets\\PostDimmer',
+            'artworx\\omegacp\\Widgets\\PageDimmer',
         ],
     ],
 

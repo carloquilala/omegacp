@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Page;
+use artworx\omegacp\Models\Page;
 
 class PagesTableSeeder extends Seeder
 {

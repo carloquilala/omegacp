@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Http\Controllers;
+namespace artworx\omegacp\Http\Controllers;
 
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;

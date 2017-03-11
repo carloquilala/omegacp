@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Tests;
+namespace artworx\omegacp\Tests;
 
 class LoginTest extends TestCase
 {

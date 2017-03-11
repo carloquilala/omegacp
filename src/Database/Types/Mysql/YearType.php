@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Database\Types\Mysql;
+namespace artworx\omegacp\Database\Types\Mysql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Types\Type;
 
 class YearType extends Type
 {

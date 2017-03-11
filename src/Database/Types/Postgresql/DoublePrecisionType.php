@@ -1,8 +1,8 @@
 <?php
 
-namespace AI\Omega\Database\Types\Postgresql;
+namespace artworx\omegacp\Database\Types\Postgresql;
 
-use AI\Omega\Database\Types\Common\DoubleType;
+use artworx\omegacp\Database\Types\Common\DoubleType;
 
 class DoublePrecisionType extends DoubleType
 {

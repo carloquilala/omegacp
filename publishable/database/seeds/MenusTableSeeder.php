@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Menu;
+use artworx\omegacp\Models\Menu;
 
 class MenusTableSeeder extends Seeder
 {

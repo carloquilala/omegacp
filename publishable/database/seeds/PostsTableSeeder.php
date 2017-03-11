@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\Post;
+use artworx\omegacp\Models\Post;
 
 class PostsTableSeeder extends Seeder
 {

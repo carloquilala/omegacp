@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Database\Types\Common;
+namespace artworx\omegacp\Database\Types\Common;
 
 use Doctrine\DBAL\Types\StringType as DoctrineStringType;
 

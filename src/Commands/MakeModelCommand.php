@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Commands;
+namespace artworx\omegacp\Commands;
 
 use Illuminate\Foundation\Console\ModelMakeCommand;
 use Symfony\Component\Console\Input\InputOption;

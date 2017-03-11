@@ -1,10 +1,10 @@
 <?php
 
-namespace AI\Omega\Traits;
+namespace artworx\omegacp\Traits;
 
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
-use AI\Omega\Facades\Omega;
-use AI\Omega\Models\Role;
+use artworx\omegacp\Facades\Omega;
+use artworx\omegacp\Models\Role;
 
 /**
  * @property  \Illuminate\Database\Eloquent\Collection  roles

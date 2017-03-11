@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Widgets;
+namespace artworx\omegacp\Widgets;
 
 use Arrilot\Widgets\AbstractWidget;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Facades\Omega;
 
 class UserDimmer extends AbstractWidget
 {

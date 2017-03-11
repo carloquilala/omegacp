@@ -1,9 +1,9 @@
 <?php
 
-namespace AI\Omega\Tests;
+namespace artworx\omegacp\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use AI\Omega\Models\Category;
+use artworx\omegacp\Models\Category;
 
 class CategoryTest extends TestCase
 {

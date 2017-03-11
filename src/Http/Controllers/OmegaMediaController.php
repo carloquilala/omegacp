@@ -1,11 +1,11 @@
 <?php
 
-namespace AI\Omega\Http\Controllers;
+namespace artworx\omegacp\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Facades\Omega;
 
 class OmegaMediaController extends Controller
 {

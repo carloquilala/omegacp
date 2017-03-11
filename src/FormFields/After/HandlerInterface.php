@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\FormFields\After;
+namespace artworx\omegacp\FormFields\After;
 
 interface HandlerInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\FormFields;
+namespace artworx\omegacp\FormFields;
 
 class TextAreaHandler extends AbstractHandler
 {

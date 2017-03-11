@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Database\Schema;
+namespace artworx\omegacp\Database\Schema;
 
 use Illuminate\Support\Facades\Validator;
 

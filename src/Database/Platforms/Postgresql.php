@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Database\Platforms;
+namespace artworx\omegacp\Database\Platforms;
 
 use Illuminate\Support\Collection;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace AI\Omega\FormFields\After;
+namespace artworx\omegacp\FormFields\After;
 
-use AI\Omega\Traits\Renderable;
+use artworx\omegacp\Traits\Renderable;
 
 abstract class AbstractHandler implements HandlerInterface
 {

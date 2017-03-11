@@ -1,7 +1,7 @@
 {
     "name": "artworx/omegacp",
     "description": "A Laravel ragnarok online admin panel",
-    "keywords": ["laravel", "ragnarok online", "ragnarok", "admin", "panel"],
+    "keywords": ["laravel", "ragnarok online", "ragnarok", "admin", "panel", "omegacp"],
     "license": "MIT",
     "homepage": "hhttps://github.com/carloquilala/omegacp",
     "support": {
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AI\\Omega\\": "src/"
+            "artworx\\omegacp\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AI\\Omega\\Tests\\": "tests/"
+            "artworx\\omegacp\\Tests\\": "tests/"
       }
     },
     "minimum-stability": "stable"

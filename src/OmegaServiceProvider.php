@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega;
+namespace artworx\omegacp;
 
 use Arrilot\Widgets\Facade as Widget;
 use Arrilot\Widgets\ServiceProvider as WidgetServiceProvider;
@@ -10,9 +10,9 @@ use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Intervention\Image\ImageServiceProvider;
-use AI\Omega\Facades\Omega as OmegaFacade;
-use AI\Omega\FormFields\After\DescriptionHandler;
-use AI\Omega\Http\Middleware\OmegaAdminMiddleware;
+use artworx\omegacp\Facades\Omega as OmegaFacade;
+use artworx\omegacp\FormFields\After\DescriptionHandler;
+use artworx\omegacp\Http\Middleware\OmegaAdminMiddleware;
 
 class OmegaServiceProvider extends ServiceProvider
 {

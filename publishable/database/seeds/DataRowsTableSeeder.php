@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\DataRow;
-use AI\Omega\Models\DataType;
+use artworx\omegacp\Models\DataRow;
+use artworx\omegacp\Models\DataType;
 
 class DataRowsTableSeeder extends Seeder
 {

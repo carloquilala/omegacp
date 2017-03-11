@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Http\Controllers;
+namespace artworx\omegacp\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Constraint;
 use Intervention\Image\Facades\Image;
-use AI\Omega\Traits\AlertsMessages;
+use artworx\omegacp\Traits\AlertsMessages;
 
 abstract class Controller extends BaseController
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use AI\Omega\Models\DataType;
+use artworx\omegacp\Models\DataType;
 
 class DataTypesTableSeeder extends Seeder
 {
@@ -17,7 +17,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Post',
                 'display_name_plural'   => 'Posts',
                 'icon'                  => 'omega-news',
-                'model_name'            => 'AI\\OMega\\Models\\Post',
+                'model_name'            => 'artworx\\omegacp\\Models\\Post',
                 'generate_permissions'  => 1,
                 'description'           => '',
             ])->save();
@@ -30,7 +30,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Page',
                 'display_name_plural'   => 'Pages',
                 'icon'                  => 'omega-file-text',
-                'model_name'            => 'AI\\OMega\\Models\\Page',
+                'model_name'            => 'artworx\\omegacp\\Models\\Page',
                 'generate_permissions'  => 1,
                 'description'           => '',
             ])->save();
@@ -43,7 +43,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'User',
                 'display_name_plural'   => 'Users',
                 'icon'                  => 'omega-person',
-                'model_name'            => 'AI\\OMega\\Models\\User',
+                'model_name'            => 'artworx\\omegacp\\Models\\User',
                 'generate_permissions'  => 1,
                 'description'           => '',
             ])->save();
@@ -56,7 +56,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Category',
                 'display_name_plural'   => 'Categories',
                 'icon'                  => 'omega-categories',
-                'model_name'            => 'AI\\OMega\\Models\\Category',
+                'model_name'            => 'artworx\\omegacp\\Models\\Category',
                 'generate_permissions'  => 1,
                 'description'           => '',
             ])->save();
@@ -69,7 +69,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Menu',
                 'display_name_plural'   => 'Menus',
                 'icon'                  => 'omega-list',
-                'model_name'            => 'AI\\OMega\\Models\\Menu',
+                'model_name'            => 'artworx\\omegacp\\Models\\Menu',
                 'generate_permissions'  => 1,
                 'description'           => '',
             ])->save();
@@ -82,7 +82,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Role',
                 'display_name_plural'   => 'Roles',
                 'icon'                  => 'omega-lock',
-                'model_name'            => 'AI\\OMega\\Models\\Role',
+                'model_name'            => 'artworx\\omegacp\\Models\\Role',
                 'generate_permissions'  => 1,
                 'description'           => '',
             ])->save();

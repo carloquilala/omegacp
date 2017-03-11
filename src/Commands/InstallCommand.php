@@ -1,14 +1,14 @@
 <?php
 
-namespace AI\Omega\Commands;
+namespace artworx\omegacp\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Intervention\Image\ImageServiceProviderLaravel5;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Process\Process;
-use AI\Omega\Traits\Seedable;
-use AI\Omega\OmegaServiceProvider;
+use artworx\omegacp\Traits\Seedable;
+use artworx\omegacp\OmegaServiceProvider;
 
 class InstallCommand extends Command
 {

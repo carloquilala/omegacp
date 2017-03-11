@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Models;
+namespace artworx\omegacp\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Route;
@@ -13,7 +13,7 @@ class MenuItem extends Model
 
     public function children()
     {
-        return $this->hasMany('AI\Omega\Models\MenuItem', 'parent_id')
+        return $this->hasMany('artworx\omegacp\Models\MenuItem', 'parent_id')
             ->with('children');
     }
 

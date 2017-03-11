@@ -1,6 +1,6 @@
 <?php
 
-namespace AI\Omega\Database\Schema;
+namespace artworx\omegacp\Database\Schema;
 
 use Doctrine\DBAL\Schema\Index as DoctrineIndex;
 

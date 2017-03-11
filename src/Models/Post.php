@@ -1,11 +1,11 @@
 <?php
 
-namespace AI\Omega\Models;
+namespace artworx\omegacp\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
-use AI\Omega\Facades\Omega;
+use artworx\omegacp\Facades\Omega;
 
 class Post extends Model
 {

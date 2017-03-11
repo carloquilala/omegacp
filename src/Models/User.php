@@ -1,10 +1,10 @@
 <?php
 
-namespace AI\Omega\Models;
+namespace artworx\omegacp\Models;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Auth\User as AuthUser;
-use AI\Omega\Traits\OmegaUser;
+use artworx\omegacp\Traits\OmegaUser;
 
 class User extends AuthUser
 {

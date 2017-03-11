@@ -1,14 +1,14 @@
 <?php
 
-namespace AI\Omega\Tests;
+namespace artworx\omegacp\Tests;
 
 use Exception;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Database\Migrations\Migrator;
 use Illuminate\Foundation\Exceptions\Handler;
 use Orchestra\Testbench\BrowserKit\TestCase as OrchestraTestCase;
-use AI\Omega\Models\User;
-use AI\Omega\OmegaServiceProvider;
+use artworx\omegacp\Models\User;
+use artworx\omegacp\OmegaServiceProvider;
 
 class TestCase extends OrchestraTestCase
 {

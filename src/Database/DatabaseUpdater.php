@@ -1,13 +1,13 @@
 <?php
 
-namespace AI\Omega\Database;
+namespace artworx\omegacp\Database;
 
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Schema\SchemaException;
 use Doctrine\DBAL\Schema\TableDiff;
-use AI\Omega\Database\Schema\SchemaManager;
-use AI\Omega\Database\Schema\Table;
-use AI\Omega\Database\Types\Type;
+use artworx\omegacp\Database\Schema\SchemaManager;
+use artworx\omegacp\Database\Schema\Table;
+use artworx\omegacp\Database\Types\Type;
 
 class DatabaseUpdater
 {
